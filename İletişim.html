@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İletişim - TEKİN KARDEŞLER</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="nav-left">
+                <a href="AnaSafya.html" class="logo-text">TEKİN KARDEŞLER</a>
+            </div>
+            <div class="nav-center" id="navLinks">
+                <a href="AnaSafya.html">ANASAYFA</a>
+                <a href="Hakkımızda.html">HAKKIMIZDA</a>
+                <a href="Hizmetlerimiz.html">HİZMETLERİMİZ</a>
+            </div>
+            <div class="nav-right">
+                <a href="İletişim.html" class="contact-button">İLETİŞİM</a>
+            </div>
+            <div class="nav-hamburger" id="navHamburger">&#9776;</div>
+        </div>
+    </nav>
+
+    <main class="contact-container">
+        <div class="contact-form">
+            <h2>İletişim Formu</h2>
+            <p>Markalarımız ve çözümlerimiz hakkında daha detaylı bilgi almak için bizi arayabilir, sorularınızı yandaki
+                formu doldurarak bizimle paylaşabilirsiniz.</p>
+            <form>
+                <input type="text" placeholder="Ad Soyad" required>
+                <input type="email" placeholder="E-mail" required>
+                <input type="text" placeholder="Telefon" required>
+                <textarea placeholder="Mesajınız" rows="5" required></textarea>
+                <button type="submit">Gönder</button>
+            </form>
+        </div>
+
+        <div class="contact-info">
+            <div class="info-box">
+                <h3>Akçaburgaz Şube</h3>
+                <p>Akçaburgaz, Halil Fahri Orman Cd. No:1, 34522 Esenyurt/İstanbul</p>
+                <p><strong>Telefon:</strong> 0532 015 55 36</p>
+                <p><strong>E-mail:</strong> tkardesler@gmail.com</p>
+            </div>
+
+            <div class="info-box">
+                <h3>Merkez Şube</h3>
+                <p>Bağlar Çeşme Mah. Doğan Araslı Caddesi, 1114. Sk. No:2, 34510 Esenyurt/İstanbul</p>
+                <p><strong>Telefon:</strong> 0212 620 90 23</p>
+                <p><strong>E-mail:</strong> hadimkoy@firma.com</p>
+            </div>
+
+            <div class="info-box">
+                <h3>Yeşilkent Şube</h3>
+                <p>Yeşilkent, 1911. Sk. NO:16/1, 34510 Esenyurt/İstanbul</p>
+                <p><strong>Telefon:</strong> 0533 141 06 09</p>
+                <p><strong>E-mail:</strong> tekinkardeslerservis@gmail.com</p>
+            </div>
+
+            <div class="info-box">
+                <h3>Fatih Sanayi Şube</h3>
+                <p>Akşemsettin Mahallesi 211 sokak, 298. Sk. 2/1, 34522 Esenyurt/İstanbul</p>
+                <p><strong>Telefon:</strong> 0553 141 06 13</p>
+                <p><strong>E-mail:</strong> bahcelievler@firma.com</p>
+            </div>
+        </div>
+        <div class="container-map">
+            <div id="map" style="height: 500px; width: 100%;"></div>
+        </div>
+
+    </main>
+
+
+
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-column">
+                <h4>Adres</h4>
+                <p>BAĞLAR ÇEŞME MAH. DOĞAN ARASLI CADDESİ, Bağlarçeşme, 1114. Sk. No:2, 34510 Esenyurt/İstanbul</p>
+            </div>
+            <div class="footer-column">
+                <h4>Bağlantılar</h4>
+                <ul>
+                    <li><a href="AnaSafya.html">Anasayfa</a></li>
+                    <li><a href="Hizmetlerimiz.html">Hizmetler</a></li>
+                    <li><a href="İletişim.html">İletişim</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>İletişim</h4>
+                <p>Telefon: (0212) 620 90 23</p>
+                <p>Email: tkardesler@gmail.com</p>
+            </div>
+        </div>
+    
+        <div class="footer-orta">
+            <a href="#">Çerezler ve Gizlilik</a> |
+            <a href="#">Kullanım Şartları</a> |
+            <a href="#">KVKK</a>
+        </div>
+    
+        <div class="footer-bottom">
+            © 2025 TEKİN KARDEŞLER. Tüm hakları saklıdır.
+        </div>
+    
+        <button class="scroll-to-top" id="scrollToTopBtn" title="Yukarı Çık">&#8679;</button>
+    </footer>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap"
+        async defer></script>
+        <script src="script.js"></script>
+        <script src="menu.js"></script>
+        <script src="scroll.js"></script>
+</body>
+
+</html>
